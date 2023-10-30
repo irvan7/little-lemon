@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lemon</title>
+    <meta name="description" content="A brief description" />
+    <meta name="author" content="Little Lemon Restaurant" />
+    <meta
+      name="description"
+      content="Little Lemon - A Delicious Dining Experience" />
+    <meta
+      property="og:title"
+      content="Little Lemon - Fine Dining at its Best" />
+    <meta
+      property="og:description"
+      content="Explore the exquisite flavors of Little Lemon, where culinary excellence meets a cozy ambiance." />
+    <meta property="og:image" content="https://example.com/littlelemon.jpg" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <img src="img/Asset 16@4x.png" alt="Header Logo" style="width: 35%" />
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- Banner section -->
+    <img
+      src="img/Leonardo_Diffusion_full_of_lemons_realistic_4K_natural_1.jpg"
+      alt="Banner" />
+
+    <!-- Main content section -->
+    <main>
+      <!-- Promotional Discount section -->
+      <section class="discount-text">
+        <article>
+          <h1>Promotional Discount</h1>
+          <p>Get 50% off on selected items</p>
+        </article>
+      </section>
+
+      <!-- Menu section -->
+      <section id="main">
+        <article>
+          <h2>Our Menu</h2>
+          <img
+            src="img/Leonardo_Diffusion_lemon_pasta_dish_on_the_plate_realistic_4K_0.jpg"
+            alt="" />
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsum
+            expedita et. Blanditiis illo omnis, veritatis ea excepturi ipsam
+            optio fugiat sunt quas eligendi totam fugit ex earum cum mollitia.
+          </p>
+          <p class="link"><a href="menu.html">See our new menu</a></p>
+        </article>
+
+        <!-- Book a Table section -->
+        <article>
+          <h2>Book a Table</h2>
+          <img
+            src="img/Leonardo_Diffusion_lemon_cheesecake_dish_on_the_plate_realisti_0.jpg"
+            alt="" />
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsum
+            expedita et. Blanditiis illo omnis, veritatis ea excepturi ipsam
+            optio fugiat sunt quas eligendi totam fugit ex earum cum mollitia.
+          </p>
+          <p class="link"><a href="book.html">Book your table now</a></p>
+        </article>
+
+        <!-- Opening Hours section -->
+        <article>
+          <h2>Opening Hours</h2>
+          <img src="img/Leonardo_Diffusion_buttler.jpg" alt="" />
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            neque sunt vitae velit impedit necessitatibus, magni incidunt qui
+            optio modi.
+          </p>
+          <div class="hour">
+            <p>Mon - Fri: 2pm - 10pm</p>
+            <p>Sat: 2pm - 11pm</p>
+            <p>Sun: 2pm - 9pm</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer section -->
+    <footer>
+      <div>
+        <img
+          src="img/Asset 20@4x.png"
+          alt="Footer Logo"
+          style="width: 3.5rem" />
+      </div>
+      <div>
+        <p id="currentYear"></p>
+      </div>
+    </footer>
+
+    <!-- JavaScript code to set the current year dynamically -->
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById(
+        "currentYear"
+      ).textContent = `© ${currentYear} Little Lemon`;
+    </script>
+  </body>
+</html>

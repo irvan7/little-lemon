@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lemon - Menu</title>
+    <meta name="description" content="Little Lemon Restaurant Menu" />
+    <meta name="author" content="Little Lemon Restaurant" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <img src="img/Asset 16@4x.png" alt="Header Logo" style="width: 35%" />
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+      <h2>Menu</h2>
+      <!-- Menu section -->
+      <section id="main">
+        <!-- First row -->
+        <article>
+          <img
+            src="img/Leonardo_Diffusion_lemon_pasta_dish_on_the_plate_realistic_4K_0.jpg"
+            alt="Menu Item 1" />
+          <p>Lemon Pasta</p>
+        </article>
+        <article>
+          <img
+            src="img/Leonardo_Diffusion_lemon_chicken_dish_on_the_plate_realistic_4_1.jpg"
+            alt="Menu Item 2" />
+          <p>Lemon Chicken</p>
+        </article>
+        <article>
+          <img
+            src="img/Leonardo_Diffusion_lemon_cheesecake_dish_on_the_plate_realisti_0.jpg"
+            alt="Menu Item 3" />
+          <p>Lemon Cheesecake</p>
+        </article>
+
+        <!-- Second row -->
+        <article>
+          <img
+            src="img/Leonardo_Diffusion_lemon_meringue_cupcake_dark_background_1.jpg"
+            alt="Menu Item 4" />
+          <p>Lemon Meringue Cupcake</p>
+        </article>
+        <article>
+          <img
+            src="img/Leonardo_Diffusion_lemon_posset_dark_background_1.jpg"
+            alt="Menu Item 5" />
+          <p>Lemon Posset</p>
+        </article>
+        <article>
+          <img
+            src="img/Leonardo_Diffusion_lemonade_dark_background_0.jpg"
+            alt="Menu Item 6" />
+          <p>Lemonade</p>
+        </article>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer section -->
+    <footer>
+      <div>
+        <img
+          src="img/Asset 20@4x.png"
+          alt="Footer Logo"
+          style="width: 3.5rem" />
+      </div>
+      <div>
+        <p id="currentYear"></p>
+      </div>
+    </footer>
+
+    <!-- JavaScript code to set the current year dynamically -->
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById(
+        "currentYear"
+      ).textContent = `© ${currentYear} Little Lemon`;
+    </script>
+  </body>
+</html>

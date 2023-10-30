@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lemon - Book</title>
+    <meta name="description" content="Contact book reservation inquiries" />
+    <meta name="author" content="Little Lemon Restaurant" />
+
+    <!-- CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <img src="img/Asset 16@4x.png" alt="Header Logo" style="width: 35%" />
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+      <h2>Book a Reservation</h2>
+      <!-- Book a Table section -->
+      <section id="book">
+        <article>
+          <img
+            src="img/Leonardo_Diffusion_little_lemon_restaurant_dark_background_1.jpg"
+            alt="" />
+          <p>
+            For reservation inquiries, please contact us through one of the
+            following methods:
+          </p>
+          <div class="contact-info">
+            <div>
+              <p><i class="bx bxs-phone bx-sm"></i> +1 123-456-7890</p>
+            </div>
+            <div>
+              <p><i class="bx bxs-envelope bx-sm"></i> info@littlelemon.com</p>
+            </div>
+            <div>
+              <p>
+                <i class="bx bxl-instagram bx-sm"></i> @littlelemonrestaurant
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer section -->
+    <footer>
+      <div>
+        <img
+          src="img/Asset 20@4x.png"
+          alt="Footer Logo"
+          style="width: 3.5rem" />
+      </div>
+      <div>
+        <p id="currentYear"></p>
+      </div>
+    </footer>
+
+    <!-- JavaScript code to set the current year dynamically -->
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById(
+        "currentYear"
+      ).textContent = `© ${currentYear} Little Lemon`;
+    </script>
+  </body>
+</html>
